@@ -4,16 +4,16 @@ NOTE:
 
 Compilation Instructions
 The program consists of two files:
-1. 2dColorMap.cpp ----> It contains code for color map and contor.
+1. 2dColorMap.cpp ----> It contains code for color map and contour.
    The color map are of two shade: Gray Scale and Green-Blue Shade
 
-   To compile 2dColorMap.cpp do:
+   To compile 2dColorMap.cpp:
    make colorMap
 
    and run using command:
   ./2dColorMap datafile
 
-  To remove the binary file do:
+  To remove the binary file:
   make clear
 
       ##################### Useful Keys #####################
@@ -24,15 +24,15 @@ The program consists of two files:
       left arrow ---> translate left
       right arrow ---> translate down
 
-2. Elevation3d.cc  ----> It contains code for elevation of color map and 5 contors
+2. Elevation3d.cc  ----> It contains code for elevation of color map and 5 contours
 
-  To compile elevationMap.cpp do:
+  To compile elevationMap.cpp:
   make elevationMap
 
   and run using command:
-  ./elevationMap dataFile
+  ./elevationMap datafile
 
-  To remove the binary file do:
+  To remove the binary file:
   make clear
 
       #################### Useful Keys ####################
